@@ -1,36 +1,44 @@
 /* giriş */
 *{
   margin: 0px;
-  background-color: #CE2829;
+ background-color: #FAF7F2;
 }
-.öneri p {
-  display: flex;
+
+.öneri ul {
+display: flex;
+justify-content: space-around;
+padding: 1rem;
+color: white;
   background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: italic;
   font-size: medium;
- 
+}
+.öneri ul li {
+  background-color: white;
+  color:black;
+  display: flex;
 }
 .baslık{
-  
+  background-color: #CE2829;
   text-align: center;
 }
 .baslık h1 {
  color:white;
  font-size: 3rem;
- margin-top: 2rem;
+background-color:#CE2829;
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
 }
 .baslık p{
-  
+  background-color: #CE2829;
   color: #FDC913;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 1rem;
   font-size: large;
 }
 .baslık h4{
-
+background-color: #CE2829;
   margin-top: 2rem;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -47,5 +55,160 @@
   outline-color:#e7b916;
   width: 8rem;
   height: 2rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
+}
+.özel {
+  position: relative;
+}
+.özel img {
+  width: 40rem;
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: 20rem;
+  border-radius: 20px;
+}
+.özel h3 {
+  position: absolute;
+  color: white;
+  margin-top: 10rem;
+  margin-left: 24rem;
+  font-size: 40px;
+  background-color: #CE2829;
+}
+.özel p {
+  position: absolute;
+  color: white;
+  margin-top: 15rem;
+  margin-left: 24rem;
+  background-color: #CE2829;
+}
+.özel button {
+  position: absolute;
+  background-color: #FAF7F2;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #CE2829;
+  border-radius: 1rem ;
+  outline-color:#e7b916;
+  width: 10rem;
+  height: 2.5rem;
+  margin-top: 18rem;
+  margin-left: 24rem;
+}
+.burger {
+margin-top: 80px;
+position: relative;
+ 
+}
+.burger img {
+  margin-left: 62rem;
+  width: 35rem;
+  height: 15rem;
+  margin-top: 0.2rem;
+  position: absolute;
+ border-radius: 20px;
+  
+}
+.burger button {
+  position: absolute;
+  background-color: #FAF7F2;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #CE2829;
+  border-radius: 1rem ;
+  outline-color:#e7b916;
+  width: 10rem;
+  height: 2.5rem;
+  margin-top: 9rem;
+  margin-left:65rem;
+ 
+}
+.burger h3 {
+  color:#FAF7F2;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 5rem;
+  margin-left:65rem;
+  background-color: #292929;
+}
+.kurye {
+  margin-top: 20rem;
+position: relative;
+margin-left: 62rem;
+}
+.kurye img {
+  margin-top: 3rem;
+width: 35rem;
+height: 15rem;
+border-radius: 20px;
+position: absolute;
+}
+.kurye h3{
+  color: #CE2829;
+  position: absolute;
+  margin-top: 6rem;
+  margin-left: 2rem;
+  background-color: #FAF7F2;
+}
+.kurye h3 p {
+  background-color: #FAF7F2;
+  color: black;
+  position: absolute;
+  
+}
+.kurye button {
+  position: absolute;
+  background-color: #FAF7F2;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #CE2829;
+  border-radius: 1rem ;
+  outline-color:#e7b916;
+  width: 10rem;
+  height: 2.5rem;
+  margin-top: 14rem;
+ margin-left: 2.5rem;
+}
+.menü h4 {
+  margin-top: 43rem;
+  text-align: center;
+  color:#CE2829;
+}
+.menü h3 {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.tercih {
+  background-color: ;
+}
+.tercih ul {
+  display: flex;
+justify-content: space-around;
+padding: 1rem;
+
+  background-color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: medium;
+}
+.üçlü {
+  display: flex;
+  justify-content: space-around;
+
+}
+.pizza  {
+ width: 80px;
+ height: 100px;
+ background-color: white;
+
+}
+.footer {
+  background-color: #292929;
 }
