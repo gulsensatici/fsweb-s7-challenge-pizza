@@ -1,14 +1,19 @@
 import React from "react";
 import "./App.css"
-import Main from "./Main"
+import {useHistory} from "react-router-dom";
+
 const FirstPage = () => {
+  const history = useHistory();
+  const toMain=()=>{
+    history.push("/main");
+  }
   return (
     <>
     <div className="baslık">
       <h1>Teknolojik Yemekler</h1>
       <p> fırsatı kaçırma</p>
       <h4> KOD ACIKTIRIR  PIZZA, DOYURUR</h4>
-      <button>ACIKTIM</button>
+      <button onClick={toMain}>ACIKTIM</button>
       <div className="foto">
       <img src="\mvp-banner.png" width="100%" height="10%"></img>
       </div>
@@ -28,19 +33,19 @@ const FirstPage = () => {
           <img src="\kart-1.png" ></img>
           <h3> Özel  Lezzetus </h3>
           <p>Position: Absolute Acı Burger</p>
-          <button>Sipariş Ver</button>
+          <button onClick={toMain}>Sipariş Ver </button>
         </div>
 
         <div className="burger" >
           <img src="\kart-2.png" ></img>
           <h3> Hackathlon Burger Menü </h3>
-          <button>Sipariş Ver</button>
+          <button onClick={toMain}>Sipariş Ver</button>
         </div>
 
         <div className="kurye" >
           <img src="kart-3.png" ></img>
           <h3> Çoooook <p> hızlı npm gibi kurye</p></h3>
-          <button>Sipariş Ver</button>
+          <button onClick={toMain}>Sipariş Ver</button>
         </div>
 
 <div className="menü"> 

@@ -220,10 +220,21 @@ padding: 1rem;
 
 }
 .pizza  {
- width: 80px;
+ width: 100px;
  height: 100px;
  background-color: white;
 
+}
+.pizza img {
+  width: 250px;
+}
+.pizza ul {
+  display: flex;
+  
+}
+.pizza ul li {
+  display: flex;
+  margin-left:1.5rem ;
 }
 .footer {
   background-color: black;
