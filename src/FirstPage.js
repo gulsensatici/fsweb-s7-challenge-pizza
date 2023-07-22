@@ -8,9 +8,9 @@ const FirstPage = () => {
       <h1>Teknolojik Yemekler</h1>
       <p> fırsatı kaçırma</p>
       <h4> KOD ACIKTIRIR  PIZZA, DOYURUR</h4>
-      <button>Acıktım</button>
-      <div>
-      <img src="\mvp-banner.png" width="100%" height="20%"></img>
+      <button>ACIKTIM</button>
+      <div className="foto">
+      <img src="\mvp-banner.png" width="100%" height="10%"></img>
       </div>
       </div>
       <div className="öneri">
@@ -90,6 +90,45 @@ const FirstPage = () => {
             </div>
       <div className="footer">
         <h4>Teknolojik Yemekler</h4>
+        <p>Sıcacık Menüler</p>
+        
+      </div>
+      <div className="konum">
+        <img src="\icon-1.png"></img>
+        <p> 341 Londonderry Road, Istanbul Türkiye</p>
+        
+        </div>
+        <div className="mail">
+        <img src="\icon-2.png"></img>
+        <p> aciktim@teknolojikyemekler.com</p>
+      </div>
+      <div className="tel">
+        <img src="\icon-3.png"></img>
+        <p> +90 216 123 45 67</p>
+      </div>
+      <div className="seçenekler">
+        
+        <div className="seçenek2"> <p>Terminal Pizza</p> </div>
+        <div className="seçenek2"><p>5 Kişilik Hackathlon Pizza</p></div>
+        <div className="seçenek2"><p>useEffect Tavuklu Pizza</p></div>
+        <div className="seçenek2"> <p>Beyaz Console Frosty</p></div>
+        <div className="seçenek2"><p>Testler Geçti Mutlu Burger</p></div>
+        <div className="seçenek2"><p>Position Absolute Acı Burger</p></div>
+      </div>
+
+      <div className="insta">
+      <p>Instagram</p>
+      <div className="ilk3">
+       <img src="\li-0.png"></img>
+        <img src="\li-1.png"></img>
+        <img src="\li-2.png"></img>
+      </div>
+      <div className="ilk3">
+        <img src="\li-3.png"></img>
+        <img src="\li-4.png"></img>
+        <img src="\li-5.png"></img>
+      </div>
+
       </div>
     </>
   );

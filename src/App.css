@@ -10,7 +10,9 @@ justify-content: space-around;
 padding: 1rem;
 color: white;
   background-color: white;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Chelsea Market', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quattrocento', serif;
   font-style: italic;
   font-size: medium;
 }
@@ -18,38 +20,51 @@ color: white;
   background-color: white;
   color:black;
   display: flex;
+  font-family: 'Barlow', sans-serif;
+font-family: 'Chelsea Market', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quattrocento', serif;
 }
 .baslık{
   background-color: #CE2829;
   text-align: center;
+
 }
 .baslık h1 {
  color:white;
  font-size: 3rem;
 background-color:#CE2829;
- font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family: 'Chelsea Market', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quattrocento', serif;
+
   
 }
 .baslık p{
   background-color: #CE2829;
   color: #FDC913;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 1rem;
+  margin-top: 3rem;
   font-size: large;
 }
 .baslık h4{
 background-color: #CE2829;
   margin-top: 2rem;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Chelsea Market', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Quattrocento', serif;
+font-size: 30px;
   margin-bottom: 0rem;
 }
 .baslık button {
   background-color: #e7b916;
   justify-content: center;
-  font-size: 1.5rem;
-  font-style: italic;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.3rem;
+
+  font-family: 'Chelsea Market', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Quattrocento', serif;
   color: black;
   border-radius: 1rem ;
   outline-color:#e7b916;
@@ -179,15 +194,16 @@ position: absolute;
   margin-top: 43rem;
   text-align: center;
   color:#CE2829;
+  font-family: 'Chelsea Market', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quattrocento', serif;
 }
 .menü h3 {
   margin-top: 2rem;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
-.tercih {
-  background-color: ;
-}
+
 .tercih ul {
   display: flex;
 justify-content: space-around;
@@ -210,5 +226,119 @@ padding: 1rem;
 
 }
 .footer {
-  background-color: #292929;
+  background-color: black;
+  width: 100%;
+  height: 480px;
+  position: relative;
+  margin-top: 25rem;
+  
+}
+.footer h4 {
+  position: absolute;
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  text-align : center; 
+  margin-left:20rem; 
+  margin-top: 5rem;
+}
+.footer p {
+  position: absolute;
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  text-align : center; 
+  margin-left:54rem; 
+  margin-top: 5rem;
+}
+.konum {
+  display: flex;
+  position: absolute;
+  margin-top: -20rem;
+  background-color: black;
+  margin-left:20rem; 
+  
+  
+}
+.konum img {
+  background-color: black;
+
+}
+.konum p {
+  background-color: black;
+  color: white;
+  margin-top: 0.25rem;
+  margin-left: 2rem;
+}
+.mail {
+  display: flex;
+  position: absolute;
+  margin-top: -15rem;
+  background-color: black;
+  margin-left:20rem; 
+  
+}
+.mail img {
+  background-color: black;
+}
+.mail p {
+  background-color: black;
+  color: white;
+  margin-top: 0.25rem;
+  margin-left: 2rem;
+}
+.tel {
+  display: flex;
+  position: absolute;
+  margin-top: -10rem;
+  background-color: black;
+  margin-left:20rem; 
+}
+.tel img {
+  background-color: black;
+}
+.tel p {
+  background-color: black;
+  color: white;
+  margin-top: 0.25rem;
+  margin-left: 2rem;
+}
+.seçenekler {
+ 
+  position: absolute;
+  margin-top: -22rem;
+  background-color: black;
+  margin-left:53.5rem; 
+ 
+}
+.seçenekler p {
+  background-color: black;
+  color: white;
+  margin-top: 0.20rem;
+ 
+}
+.seçenek2 {
+  margin-top: 1.7rem;
+}
+.insta {
+  
+  position: absolute;
+  margin-top: -25rem;
+  background-color: black;
+  margin-left:90rem; 
+}
+.insta p {
+  background-color: black;
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 30px;
+
+}
+.insta img {
+  background-color: black;
+}
+.ilk3 {
+ background-color: black;
+ margin-bottom: 1rem;
+
 }
