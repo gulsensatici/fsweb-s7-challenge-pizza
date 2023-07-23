@@ -369,3 +369,37 @@ padding: 1rem;
   width:45rem;
   height: 20rem;
 }
+.secondpage ul  {
+ 
+  display: flex ; 
+  margin-top:3rem;
+
+  font-size: 20px;
+  margin-left: 29.5rem;
+
+  text-decoration:none
+}
+ .secenek2 ul li{
+  margin-left: 3rem;
+  display: flex;
+  text-decoration:none
+}
+
+.secondpage h4 {
+ 
+  margin-left: 35rem;
+  font-size: 25px;
+  margin-top: 3rem;
+  background-color: FAF7F2;
+}
+.secondpage p {
+  margin-top: 3rem;
+  margin-left: 35rem;
+  width: 45%;
+  font-size: 1.2rem;
+  background-color: FAF7F2;
+}
+.secondpage{
+  height: 50rem;
+  background-color: FAF7F2;
+}
