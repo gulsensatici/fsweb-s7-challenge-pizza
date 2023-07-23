@@ -353,3 +353,19 @@ padding: 1rem;
  margin-bottom: 1rem;
 
 }
+/* main */
+.secondpage h3 {
+  color: white;
+  background-color: #CE2829;
+  width:100%;
+  height: 5rem;
+  text-align: center;
+  font-size: 30px;
+}
+.secondpage img {
+  text-align: center;
+  display: block; 
+  margin: auto;
+  width:45rem;
+  height: 20rem;
+}

@@ -5,7 +5,7 @@ import {useHistory} from "react-router-dom";
 const FirstPage = () => {
   const history = useHistory();
   const toMain=()=>{
-    history.push("/main");
+    history.push("/Main");
   }
   return (
     <>
